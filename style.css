@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    padding:1rem 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.navbar button{
+    display: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.navbar button{
+    padding: 1rem;
+}
+
+@media (max-width: 576px) {
+    .navbar button{
+        display: block;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+}
+
